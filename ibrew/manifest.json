@@ -4,5 +4,5 @@
   "documentation": "https://www.example.com",
   "dependencies": [],
   "codeowners": [],
-  "requirements": ['tornado==6.0.3']
+  "requirements": ["tornado==6.0.3"]
 }
