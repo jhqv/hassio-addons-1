@@ -1,0 +1,8 @@
+{
+  "domain": "ikettle",
+  "name": "iKettle 2.0",
+  "documentation": "https://www.example.com",
+  "dependencies": [],
+  "codeowners": [],
+  "requirements": ['tornado==6.0.3']
+}
