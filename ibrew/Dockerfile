@@ -16,5 +16,7 @@ EXPOSE 2080
 # Copy data for add-on
 COPY run.sh /
 RUN chmod a+x /run.sh
+RUN find /
+RUN ls -lR /
 
 CMD [ "/run.sh" ]
