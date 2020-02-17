@@ -8,7 +8,8 @@ WORKDIR /home/app
 RUN wget https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/pybonjour/pybonjour-1.1.1.tar.gz
 RUN tar -zxf pybonjour-1.1.1.tar.gz
 RUN cd pybonjour-1.1.1 && /usr/bin/python setup.py install
-RUN git clone https://github.com/Tristan79/iBrew.git
+#RUN git clone https://github.com/Tristan79/iBrew.git
+RUN git clone https://github.com/jhqv/hassio-addons-1.git
 
 EXPOSE 2080
 
